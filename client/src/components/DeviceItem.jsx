@@ -13,10 +13,10 @@ const DeviceItem = ({device}) => {
                     <Card.Title>{device.name}</Card.Title>
                     <Card.Text>
                         <div className="text-black-50">
-                            Samsung...
+                            Brand
                         </div>
                         <div>
-                            Рейтинг: {device.raiting}
+                            Рейтинг: {device.rating}
                         </div>
                         <div>
                             {device.price} Rub

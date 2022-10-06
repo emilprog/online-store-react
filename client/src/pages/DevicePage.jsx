@@ -19,6 +19,7 @@ const DevicePage = () => {
                 <Col md={4}>
                     <Row>
                         <h2>{device.name}</h2>
+                        {/*<div>Брэнд: {device.brand}</div>*/}
                         <div>Рейтинг: {device.rating}</div>
                     </Row>
                 </Col>
