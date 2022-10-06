@@ -25,16 +25,18 @@ class DeviceStore{
         this._devices = devices
     }
 
+    setPage(page){
+        this._page = page
+    }
+
     setSelectedType(type){
+        this.setPage(1)
         this._selectedType = type
     }
 
     setSelectedBrand(brand){
+        this.setPage(1)
         this._selectedBrand = brand
-    }
-
-    setPage(page){
-        this._page = page
     }
 
     setTotalCount(count){
