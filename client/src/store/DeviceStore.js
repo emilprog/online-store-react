@@ -30,7 +30,7 @@ class DeviceStore{
     }
 
     setSelectedBrand(brand){
-        this._selectedType = brand
+        this._selectedBrand = brand
     }
 
     setPage(page){
