@@ -1,2 +1,2 @@
 # online-store-react
-Online store Node JS + React
+Online store Node JS + React.
