@@ -29,7 +29,6 @@ const Auth = observer(() => {
         } catch (e) {
             alert(e.response.data.message)
         }
-
     }
 
     return (
@@ -49,7 +48,7 @@ const Auth = observer(() => {
                             onChange={e => setEmail(e.target.value)}
                         />
                     </Form.Group>
-
+                    
                     <Form.Group className="mb-3" controlId="formBasicPassword">
                         <Form.Label>Password</Form.Label>
                         <Form.Control
